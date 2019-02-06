@@ -1,0 +1,37 @@
+ .textareaStyle { background-color: #dbc7c7;
+border-style: none;
+color: black;
+height: 200px;
+width:400px;}
+
+.inlineTextAreaDivBox{
+    width: 300px;
+    display: inline-flex;
+    height:200px;
+    margin: 10px;
+}
+
+.defaultTheme {
+    height: 200px;
+    width: 100%;
+    padding: 10px 24px;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    color: #444;
+    font-size: 14px; }
+    .defaultTheme::placeholder {
+      color: #999; }
+    .defaultTheme[disabled] {
+      background-color: #fafafa; }
+      .defaultTheme[disabled]::placeholder {
+        color: #eaeaea; }
+    .defaultTheme.isSuccess {
+      border: 2px solid #3e99fd; }
+    .defaultTheme.isError {
+      background-color: #ffd8e3;
+      border: 2px solid #fd3d71; }
+      .defaultTheme.isError::placeholder {
+        color: #fd3d71; }
+    @media only screen and (min-width: 981px) {
+      .defaultTheme {
+        padding: 16px 24px; } }

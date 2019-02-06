@@ -1,0 +1,36 @@
+{
+  "responsive" : true,
+  "title" : {
+    "display" : true,
+    "text" : "Line Chart - Linear"
+  },
+  "tooltips" : {
+    "mode" : "index",
+    "intersect" : false
+  },
+  "hover" : {
+    "mode" : "nearest",
+    "intersect" : true
+  },
+  "scales" : {
+    "xAxes" : [{
+      "display" : true,
+      "scaleLabel" : {
+        "display" : true,
+        "labelString" : "Month"
+      }
+    }],
+    "yAxes" : [{
+      "display" : true,
+      "id":"y-axis-1",
+      "position":"left",
+      "scaleLabel" : {
+        "display" : true,
+        "labelString" : "Value"
+      },
+      "ticks" : {
+        "suggestedMax" : 50
+      }
+    }]
+  }
+}

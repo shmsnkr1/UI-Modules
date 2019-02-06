@@ -1,0 +1,20 @@
+body {
+    margin: 20px !important;
+}
+
+.Pane { overflow: hidden; }
+
+.borderBoxStyle {
+    color: rgb(68, 68, 68);
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1.45;
+    font-size: 15px;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 20px 40px 40px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 3px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

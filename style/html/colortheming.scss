@@ -1,0 +1,249 @@
+body {
+  margin: 25px;
+}
+
+.Pane { overflow: hidden; }
+
+.clientcolor {
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 75%;
+    height: 85px;
+    background: #104394;
+    color: #fff;
+}
+.inline{
+    margin: 10px;
+    display: inline-flex;
+}
+.bttnStyle{
+    width:135px;
+}
+.servicebasecolordark{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 300px;
+    height: 280px;
+    background: #e8e8e8;
+    padding-top: 120px;
+    padding-left: 25px;
+}
+.servicebasecolorcore{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 280px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background: #f8f8f8;
+    padding-top: 120px;
+    padding-left: 25px;
+}
+.servicebasecolorlight{
+    margin-top: 10px;
+    padding-left: 25px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 300px;
+    height: 280px;
+    background: #f8f8f8;
+    padding-top: 120px;
+}
+.servicekeycolordark{
+    margin-top: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 300px;
+    height: 160px;
+    background: #001e67;
+    padding-top: 80px;
+}
+.servicekeycolorcore{
+    margin-top: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 300px;
+    height: 160px;
+    background: #104394;
+    padding-top: 80px;
+}
+.servicekeycolorlight{
+    margin-top: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 300px;
+    height: 160px;
+    background: #536dc4;
+    padding-top: 80px;
+}
+.serviceattention01{
+    margin-top: 10px;
+    padding-left: 25px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 300px;
+    height:80px;
+    background: #3d99fc;
+    padding-top: 40px;
+}
+.serviceattention02{
+    margin-top: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 300px;
+    height:80px;
+    background: #fd3c71;
+    padding-top: 40px;
+}
+.notavailable{
+    margin-top: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    width: 300px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    height:80px;
+    background: #cacaca;
+    padding-top: 40px;
+}
+
+
+/* Dark Theme*/
+
+.servicebasecolordarkTheme{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 280px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background: #444;
+    color:white;
+    padding-top: 120px;
+    padding-left: 25px;
+}
+.servicebasecolorcoreTheme{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 280px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color:white;
+    background: #5c5c5c;
+    padding-top: 120px;
+    padding-left: 25px;
+}
+.servicebasecolorlightTheme{
+    margin-top: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 300px;
+    color:white;
+    height: 280px;
+    background: #666666;
+    padding-top: 120px;
+}
+.servicekeycolordarkTheme{
+    margin-top: 10px;
+    padding-left: 25px;
+    color:white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 300px;
+    height: 160px;
+    background: #001e67;
+    padding-top: 80px;
+}
+.servicekeycolorcoreTheme{
+    margin-top: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    color:white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 300px;
+    height: 160px;
+    background: #114394;
+    padding-top: 80px;
+}
+.servicekeycolorlightTheme{
+    margin-top: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    width: 300px;
+    color:white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    height: 160px;
+    background: #536dc5;
+    padding-top: 80px;
+}
+.serviceattention01Theme{
+    margin-top: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    width: 300px;
+    color:white;
+    height:80px;
+    background: #3e99fd;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding-top: 40px;
+}
+.serviceattention02Theme{
+    margin-top: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    width: 300px;
+    color:white;
+    height:80px;
+    background: #fd3d71;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding-top: 40px;
+}
+.notavailableTheme{
+    margin-top: 10px;
+    padding-left: 25px;
+    margin-right: 10px;
+    width: 300px;
+    height:80px;
+    color:white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background: #cacaca;
+    padding-top: 40px;
+}
+
+.siteButton {
+    color: #3e99fd;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid #3e99fd;
+    outline: none; }
+    .siteButton.active, .siteButton:hover {
+      color: #fff;
+      background-color: #3e99fd; }
+    @media only screen and (min-width: 981px) {
+      .siteButton {
+        width: 116px; } }

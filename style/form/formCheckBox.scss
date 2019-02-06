@@ -1,0 +1,48 @@
+.wnCheckbox {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-right:20px;
+}
+  .wnCheckbox label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer; }
+  .wnCheckbox label::before,
+  .wnCheckbox label::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    transition: transform 0.2s ease; }
+  .wnCheckbox label::before {
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #3e99fd;
+    border-radius: 2px;
+    transition: background-color 0.2s ease; }
+  .wnCheckbox label::after {
+    top: 8px;
+    left: 5px;
+    width: 12px;
+    height: 12px;
+    margin-top: -5.5px;
+    transform: scale(0);
+    background-image: url("../../img/form/icon_check.png");
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease; }
+  .wnCheckbox input[type='checkbox'] {
+    margin: 0;
+    display: none; }
+  .wnCheckbox input[type='checkbox']:checked + label::before {
+    background-color: #3e99fd; }
+  .wnCheckbox input[type='checkbox']:checked + label::after {
+    transform: scale(1); }
+  .wnCheckbox input[disabled] + label {
+    color: #eaeaea;
+    cursor: default; }
+  .wnCheckbox input[disabled] + label::before {
+    border: 1px solid #eaeaea;
+    background-color: #eaeaea; }

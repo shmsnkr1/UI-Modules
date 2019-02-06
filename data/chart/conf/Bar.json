@@ -1,0 +1,29 @@
+{
+  "responsive" : true,
+  "legend" : {
+    "position" : "top"
+  },
+  "title" : {
+    "display" : true,
+    "text" : "Bar Chart - Vertical"
+  },
+  "scales" : {
+    "xAxes" : [{
+      "display" : true,
+      "scaleLabel" : {
+        "display" : true,
+        "labelString" : "Month"
+      }
+    }],
+    "yAxes" : [{
+      "display" : true,
+      "scaleLabel" : {
+        "display" : true,
+        "labelString" : "Value"
+      },
+      "ticks" : {
+        "beginAtZero" : true
+      }
+    }]
+  }
+}

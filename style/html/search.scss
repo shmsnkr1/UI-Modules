@@ -1,0 +1,102 @@
+
+.inlineTextBox{
+  display: inline-block;
+  width: 400px;
+  height: 100px;
+
+} 
+
+.inlineButtonBox{
+  position: inherit;
+  display: inline-block;
+  width: 160px;
+  height: 100px;
+  margin-top: -1px;
+
+} 
+
+.wnHeaderBottom {
+  justify-content: flex-end; }
+.wnHeaderSearch {
+  flex-basis: 480px; }
+.wnHeaderViewButtons {
+  flex-basis: 124px;
+  height: 50px;
+  margin-left: 8px;
+  margin-right: 60px; }
+  .wnHeaderViewButtons li {
+    top: 7px;
+    width: 48%;
+    height: 36px; }
+
+.wnHeaderViewButtons li {
+    background-repeat: no-repeat;
+    box-sizing: inherit;}
+.wnHeaderViewButtons {
+padding: 1px;
+  flex-basis: 25%;
+  background-color: #f1f1f1;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px #b4b4b4; }
+  .wnHeaderViewButtons li {
+    position: relative;
+    display: inline-block;
+    top: 6px;
+    width: 47.2%;
+    height: 27px;
+    list-style: none;
+    background-position: center; }
+    .wnHeaderViewButtons li:first-child {
+      border-right: 1px #dadada solid;
+      background-image: url("../../img/html/search/icon_view_widget.png"); }
+    .wnHeaderViewButtons li:last-child {
+      background-image: url("../../img/html/search/icon_view_map.png"); }
+
+.wnSearch {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: #f1f1f1;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px #b4b4b4; }
+  .wnSearch dt {
+    margin-right: 45px; }
+  .wnSearch dt input {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+    background: none;
+    border: hidden; }
+  .wnSearch dd {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .wnSearch button {
+    display: block;
+    padding: 10px;
+    background: none;
+    border: hidden; }
+  .wnSearch button span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../../img/html/search/icon_search.png") no-repeat scroll 0 0; }
+  @media only screen and (min-width: 981px) {
+    .wnSearch {
+      height: 50px; }
+      .wnSearch dt {
+        margin-right: 60px; }
+      .wnSearch dt input {
+        height: 50px; }
+      .wnSearch dd::before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 6px;
+        width: 1px;
+        height: 36px;
+        background-color: #f1f1f1; }
+      .wnSearch button {
+        padding: 15px 20px; } }

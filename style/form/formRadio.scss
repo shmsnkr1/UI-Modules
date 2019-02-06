@@ -1,0 +1,43 @@
+.wnRadio {
+    display: block;
+    position: relative;
+    padding-left: 30px; }
+    .wnRadio label {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer; }
+    .wnRadio label::before,
+    .wnRadio label::after {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      border-radius: 50%;
+      transition: transform 0.2s ease; }
+    .wnRadio label::before {
+      top: 2px;
+      left: 0;
+      width: 18px;
+      height: 18px;
+      background-color: #f0f0f0; }
+    .wnRadio label::after {
+      top: 4px;
+      left: 2px;
+      width: 14px;
+      height: 14px;
+      background-color: transparent;
+      transform: scale(0); }
+    .wnRadio input[type='radio'] {
+      display: none;
+      border: 0;
+      margin: 0; }
+    .wnRadio input[type='radio']:checked + label::after {
+      background-color: #3e99fd;
+      transform: scale(1); }
+    .wnRadio input[disabled] + label {
+      color: #eaeaea;
+      cursor: default; }
+    .wnRadio input[disabled] + label::before {
+      background-color: #fafafa; }
+    .wnRadio input[disabled]:checked + label::after {
+      background-color: #eaeaea; }

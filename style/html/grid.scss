@@ -1,0 +1,127 @@
+.contentWidget {
+  width: 99%;
+  height: 88%;
+}
+
+.imgWidget {
+  cursor: pointer;
+  padding: 10px;
+  right: 0px;
+  position: absolute;
+}
+
+.mapHeader {
+  position: absolute;
+  padding: 10px;
+}
+
+.headerMap {
+  height: 45px;
+  color: #fff;
+  cursor: all-scroll;
+  background-color: rgba(0, 30, 103, 0.8);
+}
+
+.react-grid-layout {
+  position: relative;
+  transition: height 50ms ease;
+}
+
+.react-grid-item {
+  transition: all 100ms ease;
+  transition-property: left, top;
+  &.cssTransforms {
+    transition-property: transform;
+  }
+  &.resizing {
+    z-index: 1;
+    will-change: width, height;
+  }
+  &.react-draggable-dragging {
+    transition: none;
+    z-index: 3;
+    will-change: transform;
+  }
+  &.react-grid-placeholder {
+    background: grey;
+    opacity: 0.2;
+    transition-duration: 50ms;
+    z-index: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  &>.react-resizable-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    right: 0;
+    cursor: se-resize;
+    &::after {
+      content: "";
+      position: absolute;
+      right: 3px;
+      bottom: 3px;
+      width: 5px;
+      height: 5px;
+      border-right: 2px solid rgba(0, 0, 0, 0.4);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    }
+  }
+}
+
+.editWidget {
+  right: 30px;
+  position: absolute;
+  width: 20px;
+  cursor: pointer;
+}
+
+.removeWidget {
+  width: 16px;
+  cursor: pointer;
+}
+
+.editComponent {
+  margin-right: 0px;
+}
+
+.widgetComponent {
+  position: absolute;
+  right: 0px;
+  display: flex;
+  margin: 13px;
+}
+
+.widgetContainer {
+  border: 2px solid #ccc;
+  width: 100%;
+  height: 100%;
+}
+
+.wn-widget-button_remove {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+  span {
+    background: #fff;
+    display: block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  span:nth-child(1) {
+    transform: rotate(-45deg);
+  }
+  span:nth-child(2) {
+    transform: rotate(45deg);
+  }
+}

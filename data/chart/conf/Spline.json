@@ -1,0 +1,32 @@
+{
+  "responsive" : true,
+  "legend" : {
+    "position" : "bottom"
+  },
+  "title" : {
+    "display" : true,
+    "text" : "Line Chart - Interpolation"
+  },
+  "tooltips" : {
+    "mode" : "index"
+  },
+  "scales" : {
+    "xAxes" : [{
+      "display" : true,
+      "scaleLabel" : {
+        "display" : true
+      }
+    }],
+    "yAxes" : [{
+      "display" : true,
+      "scaleLabel" : {
+        "display" : true,
+        "labelString" : "Value"
+      },
+      "ticks" : {
+        "suggestedMin" : -10,
+        "suggestedMax" : 200
+      }
+    }]
+  }
+}

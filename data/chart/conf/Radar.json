@@ -1,0 +1,14 @@
+{
+  "legend" : {
+    "position" : "top"
+  },
+  "title" : {
+    "display" : true,
+    "text" : "Radar Chart"
+  },
+  "scale" : {
+    "ticks" : {
+      "beginAtZero" : true
+    }
+  }
+}

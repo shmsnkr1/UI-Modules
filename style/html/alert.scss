@@ -1,0 +1,40 @@
+
+.wnAlert {
+    position: relative;
+    margin-bottom: 1em;
+    padding: 11px 50px 11px 24px;
+    background-color: #fafafa;
+    border-radius: 2px;
+    font-size: 14px; }
+    .wnAlert.isSuccess {
+      background-color: #d8ebff;
+      color: #3e99fd; }
+      .wnAlertClose {
+          background-color: transparent;
+    border-style: none;
+    color: inherit;
+      }
+      .wnAlert.isSuccess .wnAlertClose {
+        background-image: url("../../img/html/alert/icon_remove_success.png"); }
+    .wnAlert.isError {
+      background-color: #ffd8e3;
+      color: #fd3d71; }
+      .wnAlert.isError .wnAlertClose {
+        background-image: url("../../img/html/alert/icon_remove_error.png"); }
+    @media only screen and (min-width: 981px) {
+      .wnAlert {
+        padding: 16px 50px 16px 24px; } }
+
+  .wnAlertClose {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    width: 17px;
+    height: 17px;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    text-indent: -9999em;
+    outline: 0; }

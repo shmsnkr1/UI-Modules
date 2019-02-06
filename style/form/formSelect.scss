@@ -1,0 +1,107 @@
+.selectBorderStyle {
+width: 20%;
+}
+.wnSelect {
+  padding-left: 20px;
+  background:#f0f0f0;
+  display: inline-block;
+  position: relative;
+  color:black;
+  width: 100%;
+  height: 36px; }
+  @media only screen and (min-width: 981px) {
+    .wnSelect {
+      height: 48px; } }
+  .wnSelect select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    cursor: pointer;
+    width: 100%;
+    height: 36px;
+    border: hidden;
+    background: none;
+    opacity: 0;
+    font-size: 14px;
+    cursor: pointer; }
+    @media only screen and (min-width: 981px) {
+      .wnSelect select {
+        height: 48px; } }
+  .wnSelect select[disabled] {
+    cursor: default; }
+  .wnSelect select[disabled] + .wnSelectLabel {
+    color: #eaeaea;
+    background-color: #fafafa; }
+  .wnSelect select[disabled] ~ .wnSelectIcon {
+    display: none; }
+  .wnSelectLabel {
+    margin-top: 20px;
+    display: inline-block;
+    z-index: 1;
+    width: 100%;
+    height: 50%;
+    font-size: 14px;
+    line-height: 1;
+    vertical-align: top;
+    text-align: left;
+    border-radius: 2px;
+    background-color: #f0f0f0; }
+   
+  .wnSelectIcon {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 64px;
+    height: 36px;
+    background-image: url("../../img/form/icon_pulldown.png");
+    background-repeat: no-repeat;
+    background-position: center; }
+    @media only screen and (min-width: 981px) {
+      .wnSelectIcon {
+        height: 48px; } }
+
+.selectStyle {
+  -webkit-appearance: menulist;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-image: none;
+    position: relative;
+    display: block;
+    width: 10em !important;
+    height: 2em !important;
+    line-height: 3;
+    background: #f1f1f1;
+    overflow: hidden;
+    border-radius: .25em;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #020202;
+    cursor: pointer;
+}
+
+.row {
+  color: #444444;
+  padding: 0px 10px 0px 0px;
+  display: inline-flex;
+}
+
+.label {
+  color: #444444;
+  white-space: nowrap;
+  display: inline-block;
+  padding: 0px 8px 0px 0px;
+  min-width: 36px;
+}
+
+.errorMessage {
+  color: red;
+  opacity: 9.5;
+}
+
+.tailLabel {
+  padding-left: 4px;
+}
+

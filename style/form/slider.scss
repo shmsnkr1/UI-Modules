@@ -1,0 +1,75 @@
+.uiSlider {
+    position: relative;
+    text-align: left;
+    border: hidden;
+    background-color: #f0f0f0; }
+
+.trackStyle {
+    position: relative;
+    text-align: left;
+    border: hidden;
+    background-color: #f0f0f0;
+  }
+    
+.wnFormText {
+    font-weight: 100;
+    width: 100%;
+    padding: 10px 24px;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    color: #444;
+    font-size: 14px; }
+
+    .uiSlider .uiSliderHandle {
+      position: absolute;
+      z-index: 2;
+      width: 20px;
+      height: 20px;
+      cursor: default;
+      touch-action: none;
+      border: 3px #fff solid;
+      background: #3e99fd;
+      border-radius: 100%;
+      outline: none;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); }
+    .uiSlider .uiSliderRange {
+      position: absolute;
+      z-index: 1;
+      font-size: 0;
+      display: block;
+      border: 0;
+      background: #3e99fd; }
+    .uiSlider.uiStateDisabled .uiSliderHandle,
+    .uiSlider.uiStateDisabled .uiSliderRange {
+      filter: inherit; }
+  
+  .uiSliderHorizontal {
+    height: 6px;
+    border-radius: 6px; }
+    .uiSliderHorizontal .uiSliderHandle {
+      top: -7px;
+      margin-left: -10px; }
+    .uiSliderHorizontal .uiSliderRange {
+      top: 0;
+      height: 100%; }
+    .uiSliderHorizontal .uiSliderRangeMin {
+      left: 0; }
+    .uiSliderHorizontal .uiSliderRangeMax {
+      right: 0; }
+  
+  .wnSliderContent {
+    width: 100%; }
+  
+  .wnSliderTextboxWrapper {
+    margin-top: 35px; }
+    @media only screen and (min-width: 981px) {
+        .wnSliderTextboxWrapper {
+        margin-top: 25px; } }
+  
+  .wnSliderTextbox {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px; }
+    @media only screen and (min-width: 981px) {
+      .wnSliderTextbox {
+        width: 85px; } }

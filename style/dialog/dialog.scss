@@ -1,0 +1,85 @@
+
+
+.backgroundstyle {
+    background-color: 'rgba(0, 0, 0, 0.75)';
+}
+.wnDialog {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 2000;
+    outline: 0; }
+    .wnDialog.show {
+      display: block;
+      overflow-x: hidden;
+      overflow-y: auto; }
+  
+  .wnDialogContent {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    max-width: 930px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 16px 16px 53px 5px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%); }
+  
+  .wnDialogCeader {
+    position: relative;
+    padding: 18px 50px 18px 24px; }
+    .wnDialogHeader h1,
+    .wnDialogHeader h2,
+    .wnDialogHeader h3,
+    .wnDialogHeader h4,
+    .wnDialogHeader h5,
+    .wnDialogHeader h6,
+    .wnDialogHeader p {
+      margin: 0; }
+  
+  .wnDialogBody {
+    padding: 5px 24px; }
+  
+  .wnDialogFooter {
+    display: flex;
+    justify-content: flex-end;
+    padding: 24px; }
+    .wnDialogFooter button {
+      margin-right: 30px; }
+      .wnDialog-footer button:last-child {
+        margin-right: 0; }
+  
+  .wnDialogClose {
+  background-color: transparent;
+    border-style: none;
+   color: inherit;
+    overflow: hidden;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 17px;
+    height: 17px;
+    background: url("../../img/html/alert/icon_remove_error.png") no-repeat center;
+    cursor: pointer;
+    text-indent: -9999em;
+    outline: 0; }
+  
+  .wnDialogAction, .wnDialogCancel {
+  background-color: transparent;
+    border-style: none;
+   color: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    outline: 0; }
+  
+  .wnDialogAction {
+    color: #3e99fd; }
+  
+  .wnDialogCancel {
+    color: #fd3d71; }
+  
+  

@@ -1,0 +1,56 @@
+.wnDialogFooter{
+    padding: 20px;
+
+}
+.backgroundstyle {
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow-y: scroll;
+  }
+
+.bodyStyle {
+    background-color: #f8f8f8;
+    overflow-y: scroll;
+  }
+  
+.contentStyle {
+    width: 80%;
+    max-width: none;
+  }
+
+.wnDialogHeader
+{
+    padding: 1px 24px 0px !important;
+
+}
+.wnDialogAction, .wnDialogCancel 
+{
+background-color: transparent;
+border-style: none;
+color: inherit;
+font-size: 14px;
+font-weight: bold;
+outline: 0; 
+}
+
+.wnDialogAction {
+color: #3e99fd; 
+}
+
+.wnDialogCancel {
+color: #fd3d71; 
+}
+
+.wnDialogClose {
+background-color: transparent;
+border-style: none;
+color: inherit;
+overflow: hidden;
+position: absolute;
+top: 24px;
+right: 24px;
+width: 17px;
+height: 17px;
+background: url("../../img/dialog/icon_remove.png") no-repeat center;
+cursor: pointer;
+text-indent: -9999em;
+outline: 0; }          

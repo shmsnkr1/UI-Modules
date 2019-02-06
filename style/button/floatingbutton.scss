@@ -1,0 +1,88 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    color: white;
+    text-align: center;
+ }
+.footerContent {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.settingbttn  {
+    width: 50px;
+  }
+      .floatingmenu {
+        display: flex;
+      position: fixed;
+      bottom: 74px;
+      right: 24px;
+      color: #666;
+      z-index: 100;
+      }
+  
+      
+  
+  .backgroundstyle {
+      background-color: 'rgba(0, 0, 0, 0.75)';
+  }
+
+  
+  
+   .floatingMenu {
+
+     bottom: 50px;
+     right: 35px;
+     position: fixed;
+   }
+  
+  .floatingMenu .open {
+    right: 5px;
+      height: 150px;
+      overflow: hidden;
+    transform: rotate(90deg);
+      animation: plus-in 0.15s linear;
+      animation-fill-mode: forwards
+  }
+  
+  .floatingMenu .open .floatingMenuItem {
+      margin: 10px;
+  }
+  
+  .floatingMenuItem label{
+      display: inline-block;
+      margin-right: 8px;
+      padding: 4px 10px;
+      border-radius: 12px;
+      opacity: 0;
+      transition: opacity 250ms ease-in-out;
+  }
+  
+  .floatingMenu .open .floatingMenuItem label {
+      opacity: 0.4;
+  }
+  
+  .floatingMenuItem {
+    margin: 20px;
+  }
+  
+  .floatingMenuIcon {
+      display: inline-block;
+      width: 42px;
+      height: 42px;
+      line-height: 42px;
+      vertical-align: middle;
+      border-radius: 50%;
+      border: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,.2);
+      text-align: center;
+  }
+  
+  .floatingMenuIcon .materialIcons {
+      font-size: 32px;
+      color: #fff;
+      vertical-align: middle;
+  }
